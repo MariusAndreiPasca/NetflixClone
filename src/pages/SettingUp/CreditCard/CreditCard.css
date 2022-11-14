@@ -1,0 +1,159 @@
+.CreditCard__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+.CreditCard__nav {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  z-index: 10;
+  border-bottom: 1px solid #e6e6e6;
+  top: 0;
+}
+
+.CreditCard__signOut {
+  color: #333333;
+  font-family: "netflix_sans_bold";
+}
+
+.CreditCard__main {
+  width: 440px;
+  min-height: 100vh;
+  margin-top: 120px;
+  margin-bottom: 350px;
+}
+
+.CreditCard__logos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.CreditCard__cardData {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 80px;
+  position: relative;
+  flex-direction: column;
+  margin-top: 300px;
+}
+
+.CrediCard__data {
+  width: 100%;
+}
+
+.CreditCard__input {
+  height: 60px;
+  width: 100%;
+  line-height: 50px;
+  border: 1px solid #8c8c8c;
+  font-size: 16px;
+  outline: none;
+  font-weight: 100;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+}
+
+.CreditCard__span {
+  position: absolute;
+  color: #a2a2a2;
+  left: 0;
+  padding: 20px;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.CreditCard__data input:valid ~ span,
+.CreditCard__data input:focus ~ span {
+  transform: translateX(0) translateY(-20px);
+  font-size: 12px;
+}
+
+.CreditCard__plan {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 10px;
+  background: #f4f4f4;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.CreditCard__price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.CreditCard__type {
+  color: #737373;
+}
+
+.CreditCard_change {
+  color: #0071eb;
+  font-weight: bold;
+}
+
+.CreditCard__checkbox {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.CreditCard__checkbox input {
+  width: 24px;
+}
+
+.CreditCard__checkbox p {
+  font-size: 13px;
+  width: 360px;
+  margin-left: 10px;
+  color: #9c9c9c;
+}
+
+.CreditCard__info {
+  color: #9c9c9c;
+  font-size: 13px;
+}
+
+.CreditCard__info a {
+  color: #0071eb;
+}
+
+.CreditCard__submit {
+  width: 100%;
+  border: none;
+  background: #e50914;
+  border-radius: 4px;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.CreditCard__submit:hover {
+  background: #fd1723;
+  text-decoration: none;
+}
+
+.creditCardFooter {
+}

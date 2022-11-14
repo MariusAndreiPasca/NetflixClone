@@ -1,0 +1,150 @@
+.navbar__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  padding-top: 10px;
+  z-index: 2;
+  margin: 0 auto;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.SignIn__navbar {
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1900px;
+  width: 100%;
+  margin: 0 5%;
+  height: 78px;
+}
+
+.SignIn__logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.SignIn__logo img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.SignIn__navbar-right {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.SignIn__languages {
+  border: 1px solid #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+select {
+  font-size: 0.875rem;
+  color: #fff;
+  width: max-content;
+}
+
+.icon {
+  color: #fff;
+  font-size: 13px;
+  margin: 0 5px;
+}
+
+.SignIn__button {
+  height: 100%;
+  min-width: 60px;
+  width: fit-content;
+  background: #e50914;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-family: "netflix_sanslight", sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 0 5px;
+}
+
+.SignIn__button:hover {
+  text-decoration: none;
+}
+
+.SignIn__logIn-link {
+  color: #fff;
+}
+
+.SignIn__logIn-link:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 350px) {
+  .SignIn__navbar-right {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 550px) {
+  .SignIn__logo {
+    height: 88px;
+  }
+
+  .SignIn__navbar-right {
+    padding: 25px 0;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 950px) {
+  .SignIn__logo {
+    height: 100px;
+  }
+
+  .SignIn__navbar-right {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .SignIn__logo {
+    height: 120px;
+  }
+
+  .SignIn__navbar-right {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .SignIn__logo {
+    height: 140px;
+  }
+
+  .SignIn__logo {
+    max-width: 170px;
+  }
+}
+
+@media screen and (max-width: 2100px) {
+  .navbar__wrapper {
+    height: 45px;
+  }
+
+  .SignIn__navbar-right {
+    gap: 0;
+  }
+}

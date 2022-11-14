@@ -1,0 +1,32 @@
+.Slider__container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-top: 75px;
+}
+
+.Slider__title {
+  color: #fff;
+}
+
+.carousel {
+  cursor: grab;
+}
+
+.carousel-item {
+  min-width: 226px;
+  height: 127px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 4px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

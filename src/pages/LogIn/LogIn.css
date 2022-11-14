@@ -1,0 +1,196 @@
+.LogIn__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+}
+
+.LogIn__logo {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  height: 80px;
+  width: 215px;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.LogIn__form {
+  background: rgba(0, 0, 0, 0.75);
+  min-height: 660px;
+  width: 100%;
+  margin-top: 120px;
+  border-radius: 4px;
+  margin-bottom: 90px;
+  padding: 0 20px;
+}
+
+.LogIn__title {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+.LogIn__account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 80px;
+  position: relative;
+}
+
+.LogIn__span {
+  position: absolute;
+  color: #a2a2a2;
+  left: 0;
+  padding: 20px;
+  pointer-events: none;
+  transition: 0.3s ease;
+}
+
+.LogIn__account input:valid ~ span,
+.LogIn__account input:focus ~ span {
+  transform: translateX(0) translateY(-20px);
+  font-size: 12px;
+}
+
+.LogIn__input {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  background: #333;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  color: white;
+  font-weight: 100;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+}
+
+.LogIn__submitButton {
+  height: 50px;
+  width: 100%;
+  background: #e50914;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin: 15px 0 12px;
+  cursor: pointer;
+}
+
+.LogIn__form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.checkbox {
+  accent-color: #737373;
+  outline: none;
+}
+
+.loginFormCheckBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0;
+  gap: 4px;
+}
+
+input.checkbox {
+  width: 18px;
+  height: 18px;
+}
+
+.label {
+  color: #b3b3b3;
+  font-size: 13px;
+  display: flex;
+  font-weight: 500;
+  max-width: 200px;
+  line-height: 1.2;
+}
+
+.help {
+  padding-top: 2px;
+  font-size: 14px;
+  color: #b3b3b3;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.help:hover {
+  text-decoration: underline;
+}
+
+.LogIn__signUp {
+  color: #737373;
+}
+
+.signUp {
+  margin: 35px 0 15px;
+}
+
+.now {
+  color: white;
+  text-decoration: none;
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+.now:hover {
+  text-decoration: underline;
+}
+
+.protection {
+  font-size: 13px;
+}
+
+.learn {
+  text-decoration: none;
+  color: #0071eb;
+}
+
+.learn:hover {
+  text-decoration: underline;
+}
+
+.LogIn__link {
+  color: #fff;
+}
+
+@media screen and (max-width: 440px) {
+  .logo {
+    width: 100px;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 740px) {
+  .LogIn__form {
+    width: 440px;
+  }
+}

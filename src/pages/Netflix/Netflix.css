@@ -1,0 +1,18 @@
+.Netflix__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #141414;
+  overflow: hidden;
+}
+
+.Netflix__rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 2330px;
+}

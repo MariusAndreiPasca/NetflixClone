@@ -1,0 +1,110 @@
+.NetflixHeader__container {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.NetflixHeader__background {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.NetflixHeader__text {
+  padding-left: 30px;
+  padding-top: 100px;
+  width: 36%;
+  padding-bottom: 4px;
+  position: absolute;
+  z-index: 2;
+  max-height: 415px;
+}
+
+.NetflixHeader__title {
+  font-size: 64px;
+  color: #fff;
+}
+
+.NetflixHeader__top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 20px;
+  filter: drop-shadow(1px 1px 1px 0.4);
+}
+
+.NetflixHeader__footer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  position: absolute;
+  z-index: 2;
+  bottom: 20%;
+}
+
+.NetflixHeader__buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+.NetflixHeader__buttons button {
+  border-radius: 4px;
+  outline: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+  font-size: 18px;
+  border: none;
+  margin-right: 10px;
+}
+
+.NetflixHeader__playButton {
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NetflixHeader__infoButton {
+  width: 150px;
+  color: #fff;
+  background: #fff3;
+  cursor: pointer;
+}
+
+.NetflixHeader__infoButton:hover {
+  background: #fff2;
+}
+
+.buttonIconsTwo {
+  font-size: 24px;
+  color: white;
+}
+
+.buttonIconsOne {
+  font-size: 36px;
+}
+
+.NetflixHeader__footer {
+  width: 100%;
+}
+
+.NetflixHeader__pg {
+  background: #fff1;
+  color: #fff;
+  border-left: 2px solid #fff;
+  padding: 8px;
+  width: 80px;
+}

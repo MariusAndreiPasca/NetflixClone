@@ -1,0 +1,13 @@
+.Action__container {
+  flex: 1;
+  width: 100%;
+  background: #141414;
+  height: 800px;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 30px;
+  margin-top: -150px;
+  flex-direction: column;
+  padding-top: 180px;
+  z-index: -1;
+}

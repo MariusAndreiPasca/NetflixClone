@@ -1,0 +1,95 @@
+.Stream__container {
+  background: #000;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.Stream__wrapper {
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 0 1 auto;
+  width: 100%;
+}
+
+.Stream__title {
+  text-align: center;
+}
+
+.Stream__heading {
+  font-size: 26px;
+}
+
+.Stream__para {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Stream__animation {
+  display: flex;
+  flex: 0 1 auto;
+  height: 100%;
+  margin-top: 1em;
+  max-width: 600px;
+  width: 100%;
+}
+
+.Stream__animation-container {
+  margin: -5% 0 0;
+  position: relative;
+}
+
+.Stream__image {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.Stream__video {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  bottom: 44%;
+  right: 25%;
+  max-height: 50%;
+}
+
+.Stream__video video {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 550px) {
+  .Stream__heading {
+    font-size: 40px;
+  }
+
+  .Stream__para {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .Stream__wrapper {
+    flex-direction: row;
+  }
+
+  .Stream__title {
+    text-align: start;
+    max-width: 45%;
+  }
+
+  .Stream__heading {
+    font-size: 50px;
+    line-height: 1.1;
+  }
+
+  .Stream__para {
+    font-size: 26px;
+  }
+}

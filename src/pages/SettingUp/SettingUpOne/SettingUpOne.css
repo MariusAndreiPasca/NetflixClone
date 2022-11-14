@@ -1,0 +1,145 @@
+.SettingUpOne__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.SettingUpOne__nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #e6e6e6;
+  height: 60px;
+  padding: 0;
+}
+
+.SettingUpOne__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 200px;
+
+  height: 100%;
+}
+
+.SettingUpOne__wrapper {
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.SettingUpOne__logo {
+  height: 100%;
+  max-width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.SettingUpOne__logo img {
+  width: 100%;
+}
+
+.SettingUpOne__link {
+  color: #333333;
+}
+
+.SettingUpOne__header {
+  width: 100%;
+}
+
+.SettingUpOne__image {
+  width: 100%;
+}
+
+.SettingUpOne__image img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+}
+
+.SettingUpOne__step {
+  text-align: center;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.SettingUpOne__heading {
+  font-size: 32px;
+  text-align: flex-start;
+  line-height: 1.1;
+  width: 100%;
+}
+
+.SettingUpOne__para {
+  font-size: 18px;
+  text-align: flex-start;
+  margin-top: 20px;
+  line-height: 1.2;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.SettingUpOne__links {
+  width: 100%;
+  background: #e50914;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  min-height: 64px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.SettingUpOne__links:hover {
+  background: #f6121d;
+}
+
+.SettingUpOne__footer {
+  background: #f3f3f3;
+  width: 100%;
+  color: #737373;
+  border-top: 1px solid #e6e6e6;
+  position: absolute;
+  bottom: 0;
+}
+
+.SettingUpOne__title {
+  font-size: 16px;
+}
+
+.SettingUpOne__footer ul {
+  font-size: 13px;
+}
+
+.SettingUpOne__language-selector {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  border: 1px solid #333333;
+  margin: 20px 0;
+}
+
+.globeSetting {
+  color: #000;
+}
+
+@media screen and (min-width: 550px) {
+  .SettingUpOne__nav {
+    max-height: 100px;
+  }
+}

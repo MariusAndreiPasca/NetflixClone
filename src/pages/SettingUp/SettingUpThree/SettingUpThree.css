@@ -1,0 +1,97 @@
+.SettingUpThree__container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SettingUpThree__nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  padding: 10px 30px;
+  z-index: 10;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.NetLogo {
+  width: 200px;
+  height: 70px;
+}
+
+.SettingUpThree__link {
+  color: #333333;
+}
+
+.SettingUpThree__header {
+  max-width: 915px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.SettingUpThree__image {
+  width: 50px;
+  height: 50px;
+  margin-top: 100px;
+}
+
+.SettingUpThree__image img {
+  width: 100%;
+}
+
+.SettingUpThree__text {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.SettingUpThree__step {
+  text-align: center;
+  width: 100%;
+}
+
+.SettingUpThree__text p {
+  margin-top: 20px;
+  line-height: 2rem;
+}
+
+.SettingUpThree__plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.tickImg {
+  font-size: 32px;
+  color: #e50914;
+}
+
+.SettingUpThree__links {
+  width: 100%;
+  background: #e50914;
+  color: #fff;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  min-height: 64px;
+  margin-top: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-bottom: 150px;
+}
+
+.SettingUpThree__links:hover {
+  background: #f6121d;
+}
