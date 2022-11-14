@@ -17,6 +17,7 @@ import GiftCard from "./pages/SettingUp/GiftCard/GiftCard";
 const App = () => {
   return (
     <>
+      <SignIn />
       <Routes>
         <Route path="/" element={<SignIn />} />
         <Route path="signin" element={<LogIn />} />
